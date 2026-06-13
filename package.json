@@ -1,0 +1,67 @@
+{
+  "name": "react-native-regex-kit",
+  "version": "1.0.0",
+  "description": "Lightweight regex utilities for React Native — validation, formatting, and pattern matching helpers.",
+  "keywords": [
+    "react-native",
+    "regex",
+    "regexp",
+    "validation",
+    "pattern-matching",
+    "input-mask",
+    "form-validation",
+    "typescript"
+  ],
+  "homepage": "https://github.com/jksuthar/react-native-regex-kit#readme",
+  "bugs": {
+    "url": "https://github.com/jksuthar/react-native-regex-kit/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jksuthar/react-native-regex-kit.git"
+  },
+  "license": "MIT",
+  "author": "jksuthar",
+  "sideEffects": false,
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "react-native": "src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "react-native": "./src/index.ts",
+      "require": "./lib/index.js",
+      "default": "./lib/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "clean": "rm -rf lib",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run clean && npm run build",
+    "typecheck": "tsc --noEmit",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-native": ">=0.72.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "react": "^18.2.0",
+    "react-native": "^0.74.0",
+    "typescript": "^5.4.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}

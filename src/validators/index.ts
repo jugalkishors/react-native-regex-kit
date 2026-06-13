@@ -1,0 +1,17 @@
+export * from './userInformation';
+export * from './contactInformation';
+export * from './addressInformation';
+export * from './webInternet';
+export * from './datesTimes';
+export * from './numbers';
+export * from './financial';
+export * from './identification';
+export * from './colorsDesign';
+export * from './socialMedia';
+export * from './programming';
+export * from './security';
+export * from './files';
+export * from './geographic';
+export * from './ecommerce';
+export * from './textValidation';
+export { createValidator, type ValidatorOptions } from './utils';
