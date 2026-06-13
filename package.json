@@ -21,7 +21,7 @@
     "url": "git+https://github.com/jksuthar/react-native-regex-kit.git"
   },
   "license": "MIT",
-  "author": "jksuthar",
+  "author": "Jugal Kishor",
   "sideEffects": false,
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
