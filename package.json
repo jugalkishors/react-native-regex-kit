@@ -1,6 +1,6 @@
 {
   "name": "react-native-regex-kit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lightweight regex utilities for React Native — validation, formatting, and pattern matching helpers.",
   "keywords": [
     "react-native",
