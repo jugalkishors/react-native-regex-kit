@@ -12,13 +12,13 @@
     "form-validation",
     "typescript"
   ],
-  "homepage": "https://github.com/jksuthar/react-native-regex-kit#readme",
+  "homepage": "https://github.com/jugalkishors/react-native-regex-kit#readme",
   "bugs": {
-    "url": "https://github.com/jksuthar/react-native-regex-kit/issues"
+    "url": "https://github.com/jugalkishors/react-native-regex-kit/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jksuthar/react-native-regex-kit.git"
+    "url": "git+https://github.com/jugalkishors/react-native-regex-kit.git"
   },
   "license": "MIT",
   "author": "Jugal Kishor",
